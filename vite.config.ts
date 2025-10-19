@@ -5,7 +5,8 @@
   import path from 'path';
 
   export default defineConfig({
-    plugins: [react()],
+      base: '/react/',
+      plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
